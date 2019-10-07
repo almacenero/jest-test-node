@@ -4,7 +4,7 @@
   "description": "Entrenamiento de Test en node con jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/almacenero/jest-test-node/issues"
   },
-  "homepage": "https://github.com/almacenero/jest-test-node#readme"
+  "homepage": "https://github.com/almacenero/jest-test-node#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
 }
